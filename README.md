@@ -2,34 +2,42 @@
 
 A PreTeXt-based authoring and publishing workflow for technical books, courses, and educational materials.
 
-## Quick start
+## Getting Started
+
+**Start here:** Read [WORKFLOW.md](WORKFLOW.md) for the complete authoring workflow.
+
+For detailed element reference, see [PRETEXT_GUIDE.md](PRETEXT_GUIDE.md).
+
+## Quick Build
 
 From the repository root:
 
 ```bash
-cd /home/interns/Documents/Publishing-Framework
 pretext build web
-pretext build print
+pretext view web
 ```
 
-Or use the helper script:
+Or for both web and print:
 
 ```bash
 ./scripts/build-pretext.sh
 ```
 
 Outputs:
-- `pretext/output/web`
-- `pretext/output/print`
+- HTML: `pretext/output/web/`
+- PDF: `pretext/output/print/main.pdf`
 
-## Authoring workflow
+## First Chapter
 
-1. Write or edit chapters in `pretext/source/` using the existing PreTeXt chapter files as examples.
-2. Use `templates/chapter-template.md` as a writing guide for structure and content.
-3. Rebuild the PreTeXt project with `pretext build web` and `pretext build print`, or use `./scripts/build-pretext.sh`.
-4. Review the generated HTML and PDF output in `pretext/output/`.
+1. Copy `templates/chapter-pretext-template.ptx` to `pretext/source/ch-my-chapter.ptx`
+2. Edit with your content
+3. Add to `pretext/source/main.ptx`:
+   ```xml
+   <xi:include href="./ch-my-chapter.ptx" />
+   ```
+4. Build and preview with `pretext build web && pretext view web`
 
-## PreTeXt project structure
+## PreTeXt Project Structure
 
 - `pretext/source/` — book source files that PreTeXt builds
 - `pretext/project.ptx` — PreTeXt manifest for targets and output
