@@ -6,5 +6,5 @@
 
 By Interns
 
-This starter draft introduces the publishing workflow, the structure of the book, and the build process used to generate HTML and PDF output.
+This starter draft introduces a practical publishing workflow for writing and building a book from Markdown source files. It demonstrates how the project can produce both HTML and PDF outputs from a single content set.
 

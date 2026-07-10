@@ -1,4 +1,9 @@
-title: "Example Book Title"
+title: "Publishing Framework Starter Book"
 author:
-  - "Example Author"
+  - "Interns"
 date: "2026-07-10"
+subject: "Publishing workflow and book authoring"
+keywords:
+  - "pandoc"
+  - "markdown"
+  - "publishing"
