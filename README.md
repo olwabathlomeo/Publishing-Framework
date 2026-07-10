@@ -1,3 +1,19 @@
+# Publishing-Framework
+
+This repository builds a book from Markdown using Pandoc.
+
+Quick start
+
+```bash
+sudo apt-get update
+sudo apt-get install -y pandoc texlive-xetex make
+cd /home/interns/Documents/Publishing-Framework
+./scripts/build.sh
+```
+
+Outputs: `output/book.html` and `output/book.pdf`.
+
+See `CONTRIBUTING.md` for developer setup.
 # Publishing Framework
 
 A reusable publishing framework for writing professional books, university courses, lecture notes, technical documentation, and research monographs.

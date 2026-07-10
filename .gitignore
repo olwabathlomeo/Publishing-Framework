@@ -1,0 +1,6 @@
+output/
+.github/workflows/*.log
+*.aux
+*.log
+*.out
+.DS_Store
