@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-chapter-id" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Chapter Title</title>
+
+  <introduction>
+    <p>
+      Introductory paragraph that explains what this chapter covers and why it matters.
+      This content should set context and engage the reader.
+    </p>
+  </introduction>
+
+  <section xml:id="sec-section-one">
+    <title>First Section Title</title>
+    
+    <p>
+      Main content goes here. You can write multiple paragraphs to develop ideas.
+      PreTeXt will automatically handle formatting and cross-references.
+    </p>
+
+    <subsection xml:id="subsec-subsection-one">
+      <title>Subsection Title</title>
+      <p>
+        Deeper content here. Subsections help organize complex material.
+      </p>
+    </subsection>
+  </section>
+
+  <section xml:id="sec-section-two">
+    <title>Second Section Title</title>
+    
+    <p>
+      Each section should focus on a single topic or concept.
+    </p>
+
+    <!-- Example of an itemized list -->
+    <itemizedlist>
+      <item><p>First point</p></item>
+      <item><p>Second point</p></item>
+      <item><p>Third point</p></item>
+    </itemizedlist>
+
+    <!-- Example of an ordered list -->
+    <orderedlist>
+      <item><p>Step one</p></item>
+      <item><p>Step two</p></item>
+      <item><p>Step three</p></item>
+    </orderedlist>
+  </section>
+
+  <section xml:id="sec-math">
+    <title>Mathematical Content</title>
+
+    <p>
+      Inline math: <math>x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}</math>
+    </p>
+
+    <p>
+      Displayed equations:
+    </p>
+
+    <equation>
+      <math>E = mc^2</math>
+    </equation>
+  </section>
+
+  <conclusion>
+    <p>
+      Summary paragraph that reinforces key ideas from the chapter
+      and prepares the reader for the next chapter.
+    </p>
+  </conclusion>
+</chapter>

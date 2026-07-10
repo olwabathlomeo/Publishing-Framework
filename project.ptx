@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project ptx-version="2" source="pretext/source" publication="pretext/publication/publication.ptx" output-dir="pretext/output">
+  <targets>
+    <target name="web" format="html" />
+    <target name="print" format="pdf" />
+  </targets>
+</project>

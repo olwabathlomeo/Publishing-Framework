@@ -3,6 +3,7 @@ pretext/output/
 pretext/.cache/
 pretext/generated-assets/
 pretext/logs/
+.cache/
 .github/workflows/*.log
 *.aux
 *.log
