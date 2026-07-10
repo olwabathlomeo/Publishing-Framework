@@ -15,6 +15,23 @@ Outputs:
 - `output/book.html`
 - `output/book.pdf`
 
+## PreTeXt project
+
+A PreTeXt version of the book is available in the `pretext/` subdirectory.
+
+```bash
+cd /home/interns/Documents/Publishing-Framework/pretext
+pretext build
+```
+
+Or run the helper script from the repository root:
+
+```bash
+./scripts/build-pretext.sh
+```
+
+Outputs for the PreTeXt project are generated in `pretext/output/`.
+
 ## Writing workflow
 
 1. Create or edit a chapter in `chapters/`.
@@ -35,7 +52,6 @@ Outputs:
 - `output/` — generated book files
 
 See `CONTRIBUTING.md` for contributor setup.
-# Publishing Framework
 
 A reusable publishing framework for writing professional books, university courses, lecture notes, technical documentation, and research monographs.
 
