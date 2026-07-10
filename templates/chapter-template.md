@@ -46,37 +46,17 @@ Help students build intuition.
 
 ---
 
-# Key Concepts
-
-List the major ideas.
-
-- Concept 1
-- Concept 2
-- Concept 3
-
----
-
 # Main Content
 
-Write the lesson here.
+Write the chapter here in clear sections.
 
----
+## Section Heading
 
-# Definitions
+Add as many sections as needed.
 
-Insert definitions here.
+### Subsection Heading
 
----
-
-# Theorems
-
-Insert theorems here.
-
----
-
-# Proofs
-
-Insert proofs here.
+Use small subheadings to structure longer content.
 
 ---
 
@@ -89,18 +69,6 @@ Provide worked examples.
 # Activities
 
 Student explorations.
-
----
-
-# Common Mistakes
-
-Discuss misconceptions.
-
----
-
-# Applications
-
-Show real-world applications.
 
 ---
 
@@ -119,24 +87,20 @@ Summarize the main ideas.
 
 # Exercises
 
-Basic Exercises
-
-Intermediate Exercises
-
-Advanced Exercises
-
-Challenge Problems
+- Basic exercise
+- Intermediate exercise
+- Challenge problem
 
 ---
 
 # Further Reading
 
-Books
-
-Articles
-
-Websites
+- Book title
+- Article title
+- Website name
 
 ---
 
 # References
+
+Add references here.

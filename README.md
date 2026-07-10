@@ -1,8 +1,8 @@
-# Publishing-Framework
+# Publishing Framework
 
-This repository builds a book from Markdown using Pandoc.
+This repository provides a simple publishing workflow for building a book from Markdown files with Pandoc.
 
-Quick start
+## Quick start
 
 ```bash
 sudo apt-get update
@@ -11,9 +11,26 @@ cd /home/interns/Documents/Publishing-Framework
 ./scripts/build.sh
 ```
 
-Outputs: `output/book.html` and `output/book.pdf`.
+Outputs:
+- `output/book.html`
+- `output/book.pdf`
 
-See `CONTRIBUTING.md` for developer setup.
+## Writing workflow
+
+1. Create or edit a chapter in `chapters/`.
+2. Use `templates/chapter-template.md` as the starting structure.
+3. Rebuild with `./scripts/build.sh`.
+4. Review the generated output in `output/`.
+
+## Project structure
+
+- `chapters/` — main book content
+- `frontmatter/` — title page and metadata
+- `templates/` — reusable writing templates
+- `styles/` — HTML styling
+- `output/` — generated book files
+
+See `CONTRIBUTING.md` for contributor setup.
 # Publishing Framework
 
 A reusable publishing framework for writing professional books, university courses, lecture notes, technical documentation, and research monographs.
