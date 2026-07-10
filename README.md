@@ -21,7 +21,11 @@ Outputs:
 2. Use `templates/chapter-template.md` as the starting structure.
 3. Rebuild with `./scripts/build.sh`.
 4. Review the generated output in `output/`.
+## Start here
 
+- Begin with `chapters/01-introduction/chapter.md`.
+- Use `SUMMARY.md` to see the current chapter order.
+- Add a new chapter file and then update `SUMMARY.md`.
 ## Project structure
 
 - `chapters/` — main book content
