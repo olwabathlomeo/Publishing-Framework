@@ -1,8 +1,10 @@
-% Example Book Title
-% Example Author
-% \today
+% Publishing Framework Starter Book
+% Interns
+% 2026-07-10
 
-# Example Book Title
+# Publishing Framework Starter Book
 
-Author: Example Author
+By Interns
+
+This starter draft introduces the publishing workflow, the structure of the book, and the build process used to generate HTML and PDF output.
 
