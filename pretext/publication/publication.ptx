@@ -2,7 +2,7 @@
 
 <publication>
   <common>
-    <tableofcontents level="1" />
+    <tableofcontents level="2" />
   </common>
 
   <source>
@@ -10,6 +10,18 @@
   </source>
 
   <html>
+    <!-- Navigation sidebar with tree structure -->
     <navigation logic="tree" upbutton="yes" />
+    <!-- Enable search bar -->
+    <search variant="default" />
   </html>
+
+  <pdf>
+    <!-- Stylesheet for PDF -->
+    <pages>
+      <page type="frontmatter" />
+      <page type="chapter" />
+      <page type="backmatter" />
+    </pages>
+  </pdf>
 </publication>
