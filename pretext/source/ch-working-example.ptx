@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-working-example" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>A Simple Working Example</title>
+
+  <introduction>
+    <p>The second chapter demonstrates how the book can hold both explanatory text and lightweight technical content. This example shows that the pipeline can handle equations in Markdown and technical notation.</p>
+  </introduction>
+
+  <section xml:id="sec-technical-content">
+    <title>Technical notation</title>
+    <p>Inline math: <math>\vec{v} = (1,2,3)</math></p>
+    <p>Displayed equations are also supported.</p>
+    <equation>
+      <math>\nabla \times \vec{F} = \left( \frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}, \dots \right)</math>
+    </equation>
+    <p>This is intentionally simple, but it shows that the same source files can support both narrative writing and technical notation.</p>
+  </section>
+</chapter>

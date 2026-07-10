@@ -1,127 +1,44 @@
 # Publishing Framework
 
-This repository provides a simple publishing workflow for building a book from Markdown files with Pandoc.
+A PreTeXt-based authoring and publishing workflow for technical books, courses, and educational materials.
 
 ## Quick start
 
 ```bash
-sudo apt-get update
-sudo apt-get install -y pandoc texlive-xetex make
-cd /home/interns/Documents/Publishing-Framework
-./scripts/build.sh
-```
-
-Outputs:
-- `output/book.html`
-- `output/book.pdf`
-
-## PreTeXt project
-
-A PreTeXt version of the book is available in the `pretext/` subdirectory.
-
-```bash
 cd /home/interns/Documents/Publishing-Framework/pretext
-pretext build
+pretext build web
+pretext build print
 ```
 
-Or run the helper script from the repository root:
+Or from the repository root:
 
 ```bash
 ./scripts/build-pretext.sh
 ```
 
-Outputs for the PreTeXt project are generated in `pretext/output/`.
+Outputs:
+- `pretext/output/web`
+- `pretext/output/print`
 
-## Writing workflow
+## Authoring workflow
 
-1. Create or edit a chapter in `chapters/`.
-2. Use `templates/chapter-template.md` as the starting structure.
-3. Rebuild with `./scripts/build.sh`.
-4. Review the generated output in `output/`.
-## Start here
+1. Write or edit chapters in the main repository under `chapters/`.
+2. Use `templates/chapter-template.md` to create new chapters.
+3. Rebuild the PreTeXt project with `./scripts/build-pretext.sh`.
+4. Review the generated HTML and PDF output in `pretext/output/`.
 
-- Begin with `chapters/01-introduction/chapter.md`.
-- Use `SUMMARY.md` to see the current chapter order.
-- Add a new chapter file and then update `SUMMARY.md`.
-## Project structure
+## PreTeXt project structure
 
-- `chapters/` — main book content
-- `frontmatter/` — title page and metadata
-- `templates/` — reusable writing templates
-- `styles/` — HTML styling
-- `output/` — generated book files
+- `pretext/source/` — book source files that PreTeXt builds
+- `pretext/project.ptx` — PreTeXt manifest for targets and output
+- `pretext/publication/publication.ptx` — presentation settings for HTML and PDF
+- `pretext/output/` — generated build artifacts
 
-See `CONTRIBUTING.md` for contributor setup.
+## Legacy content
 
-A reusable publishing framework for writing professional books, university courses, lecture notes, technical documentation, and research monographs.
+The repository also includes Markdown chapter drafts and templates in `chapters/` and `templates/`. The current published output is now driven by the PreTeXt project.
 
----
+## Notes
 
-## Vision
-
-The goal of this framework is to provide a structured environment for planning, writing, reviewing, and publishing high-quality educational and technical materials.
-
-Instead of starting every new project from scratch, this framework serves as a reusable template that can be copied and adapted for any new publication.
-
----
-
-## Features
-
-- Structured project organization
-- Chapter-based writing
-- Reusable templates
-- Bibliography management
-- Image and figure organization
-- Exercise and solution management
-- Version tracking
-- Multi-format publishing (PDF, HTML, EPUB)
-
----
-
-## Project Structure
-
-```text
-Publishing-Framework/
-│
-├── frontmatter/
-├── chapters/
-├── bibliography/
-├── images/
-├── exercises/
-├── output/
-└── ...
-```
-
----
-
-## Workflow
-
-Planning
-
-↓
-
-Project Design
-
-↓
-
-Outline
-
-↓
-
-Writing
-
-↓
-
-Review
-
-↓
-
-Publishing
-
----
-
-## Current Status
-
-Version 0.1
-
-Planning Stage
+- `./scripts/build.sh` remains available for the older Pandoc workflow.
+- Use `pretext view web` inside `pretext/` to preview the HTML output locally.

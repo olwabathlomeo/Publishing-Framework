@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-practice" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Practice and Review</title>
+
+  <introduction>
+    <p>A good publishing workflow should support regular review. This chapter introduces a simple practice cycle: draft, review, revise, and publish.</p>
+  </introduction>
+
+  <section xml:id="sec-suggested-workflow">
+    <title>Suggested workflow</title>
+    <orderedlist>
+      <item><p>Write the chapter content in Markdown.</p></item>
+      <item><p>Build the HTML and PDF outputs.</p></item>
+      <item><p>Review the outputs for clarity and formatting.</p></item>
+      <item><p>Revise the source files and rebuild.</p></item>
+    </orderedlist>
+    <p>This loop makes it easy to improve the book incrementally without needing a large setup.</p>
+  </section>
+</chapter>

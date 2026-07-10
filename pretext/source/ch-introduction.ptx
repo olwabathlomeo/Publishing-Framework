@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-introduction" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Introduction</title>
+
+  <introduction>
+    <p>This chapter introduces the publishing framework and explains how to use this repository as a writing workspace.</p>
+  </introduction>
+
+  <section xml:id="sec-why-framework">
+    <title>Why this framework exists</title>
+    <p>Most authors spend too much time managing tooling instead of writing. This framework keeps the workflow simple by separating content from presentation and using widely supported tools.</p>
+    <itemizedlist>
+      <item><p>Keep chapter files easy to read and edit</p></item>
+      <item><p>Create both online and printable output from the same source</p></item>
+      <item><p>Use a small, predictable project layout</p></item>
+      <item><p>Support future expansion without changing the core authoring flow</p></item>
+    </itemizedlist>
+  </section>
+
+  <section xml:id="sec-book-organization">
+    <title>How the book is organized</title>
+    <p>This book is organized into clear sections.</p>
+    <itemizedlist>
+      <item><p><code>frontmatter/</code> contains metadata, title pages, and supporting front matter.</p></item>
+      <item><p><code>chapters/</code> holds each chapter as a separate Markdown file.</p></item>
+      <item><p><code>templates/</code> provides reusable structures for writing.</p></item>
+      <item><p><code>styles/</code> contains the CSS for HTML output.</p></item>
+      <item><p><code>output/</code> is where generated files appear after building.</p></item>
+    </itemizedlist>
+  </section>
+
+  <section xml:id="sec-learning-outcomes">
+    <title>What you will learn here</title>
+    <p>By reading and using this framework, you will learn how to write chapter content in Markdown, build a web-ready HTML book, create a PDF version, and keep your content consistent with templates.</p>
+  </section>
+
+  <section xml:id="sec-first-steps">
+    <title>Your first authoring steps</title>
+    <orderedlist>
+      <item><p>Open <code>templates/chapter-template.md</code> to see the recommended chapter structure.</p></item>
+      <item><p>Copy the template into a new file under <code>chapters/</code>.</p></item>
+      <item><p>Write your chapter in plain Markdown.</p></item>
+      <item><p>Run <code>./scripts/build.sh</code> or <code>./scripts/build-pretext.sh</code>.</p></item>
+      <item><p>Review the generated files.</p></item>
+    </orderedlist>
+  </section>
+
+  <section xml:id="sec-summary">
+    <title>Summary</title>
+    <p>This repository is designed to help you write faster and publish cleaner output. The rest of the book will build on this workflow with practical examples, structure guidance, and review processes.</p>
+  </section>
+</chapter>

@@ -1,5 +1,8 @@
 output/
 pretext/output/
+pretext/.cache/
+pretext/generated-assets/
+pretext/logs/
 .github/workflows/*.log
 *.aux
 *.log

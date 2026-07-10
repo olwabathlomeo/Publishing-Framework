@@ -1,22 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 <pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="my-great-book">
-    <title>My Great Book</title>
-    <subtitle>An example to get you started</subtitle>
+  <book xml:id="publishing-framework-starter-book">
+    <title>Publishing Framework Starter Book</title>
+    <subtitle>A practical publishing workflow for book and course content.</subtitle>
 
-    <!-- Include frontmatter -->
     <xi:include href="./frontmatter.ptx" />
-
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
-
-
-    <!-- Include backmatter -->
+    <xi:include href="./ch-introduction.ptx" />
+    <xi:include href="./ch-working-example.ptx" />
+    <xi:include href="./ch-structure.ptx" />
+    <xi:include href="./ch-practice.ptx" />
     <xi:include href="./backmatter.ptx" />
-
   </book>
 </pretext>
